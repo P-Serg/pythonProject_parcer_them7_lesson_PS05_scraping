@@ -12,6 +12,12 @@ BOT_NAME = "lightpars"
 SPIDER_MODULES = ["lightpars.spiders"]
 NEWSPIDER_MODULE = "lightpars.spiders"
 
+# Настройки экспорта данных
+FEED_FORMAT = "csv"
+FEED_URI = "divan.csv"
+FEED_EXPORT_ENCODING = "utf-8"
+
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "lightpars (+http://www.yourdomain.com)"
